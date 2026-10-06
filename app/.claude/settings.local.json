@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:\\\\Users\\\\adria\\\\Downloads\\\\FitHero\\\\FitHero/\" | grep -i gradlew)",
+      "Bash(ls \"C:\\\\Users\\\\adria\\\\Downloads\\\\FitHero\\\\FitHero\\\\FitHero\" 2>&1)",
+      "Read(//c/Users/adria/Downloads/FitHero/**)",
+      "Read(//c/Users/adria/Downloads/**)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)",
+      "Bash(git remote *)",
+      "Bash(git fetch *)",
+      "Bash(git push *)",
+      "Read(//c/Users/adria/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/4b6fcce9-c041-4a9f-be82-98f1c96126e5/1744797b-8ff7-4be7-be05-2732f869db4f/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\adria\\\\Documents\\\\iLovePDF_Output\\\\ilovepdf-pdf-to-word\\\\Ficha semanal de los alumnos- 2-6 Marzo.docx\" unpacked_sample/)",
+      "Bash(py --version)",
+      "Bash(python3 scripts/office/unpack.py \"C:\\\\Users\\\\adria\\\\Documents\\\\iLovePDF_Output\\\\ilovepdf-pdf-to-word\\\\Ficha semanal de los alumnos- 2-6 Marzo.docx\" unpacked_sample/)",
+      "PowerShell(Get-Command python3 -ErrorAction SilentlyContinue; Get-Command py -ErrorAction SilentlyContinue; Get-Command python -ErrorAction SilentlyContinue; \\(Get-Command python3\\).Source)",
+      "PowerShell(py -3 --version)",
+      "Read(//c/Program Files/LibreOffice/program/**)",
+      "Read(//c/Program Files \\(x86\\)/LibreOffice/program/**)",
+      "PowerShell($env:PYTHONIOENCODING = \"utf-8\"; py -3 \"C:\\\\Users\\\\adria\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\4b6fcce9-c041-4a9f-be82-98f1c96126e5\\\\1744797b-8ff7-4be7-be05-2732f869db4f\\\\skills\\\\docx\\\\fix2_fichas.py\")",
+      "Bash(tasklist)"
+    ]
+  }
+}
